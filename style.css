@@ -62,6 +62,7 @@ button {
    flex-direction: column;
    margin-bottom: 2rem;
    width: 15rem;
+   height: 3rem;
    background-color: yellow;
    border: solid 0.063rem green;
    font-size: 1.875rem;
