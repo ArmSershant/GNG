@@ -17,10 +17,14 @@ body {
    height: 10rem;
    text-align: center;
 }
+p#result{
+   width:15rem;
+   margin-left:2rem;
+}
 
 .main-div {
    width: 18.75rem;
-   height: 10rem;
+   height: 25rem;
    border-radius: 1rem;
    display: flex;
    justify-content: center;
@@ -29,8 +33,10 @@ body {
    flex-direction: column;
    box-shadow: 0rem 0.625rem 1.25rem 0.313rem white;
    animation-name: gradient;
-   animation-duration: 6s;
+   animation-duration: 2s;
    animation-iteration-count: infinite;
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
 }
 
 .main-div input {
@@ -63,7 +69,7 @@ button {
    margin-bottom: 2rem;
    width: 15rem;
    height: 3rem;
-   background-color: yellow;
+   background-color: aqua;
    border: solid 0.063rem green;
    font-size: 1.875rem;
    border-radius: 0.50rem;
@@ -73,27 +79,19 @@ button:hover {
    transition-duration: .4s;
    border-radius: 1.25rem;
    color: whitesmoke;
-   background-color: blue;
+   background-color: fuchsia;
 }
 
 @keyframes gradient {
    0% {
-      background-color: #b993d6;
-   }
-
-   25% {
-      background-color: yellow;
+      background-position: 0% 50%;
    }
 
    50% {
-      background-color: blue;
-   }
-
-   75% {
-      background-color: green;
+      background-position: 100% 50%;
    }
 
    100% {
-      background-color: #B993D6;
+      background-position: 0% 50%;
    }
 }
