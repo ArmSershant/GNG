@@ -1,8 +1,8 @@
 body {
    padding: 0;
-   margin: 0;
+
    box-sizing: border-box;
-   background-color: black;
+
    justify-content: center;
    display: flex;
    flex-direction: column;
@@ -23,11 +23,6 @@ body {
    width: 18.75rem;
    height: 10rem;
    text-align: center;
-}
-
-p#result {
-   width: 15rem;
-   margin-left: 2rem;
 }
 
 .main-div {

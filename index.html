@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>Guess number game</title>
+        <title>Guess Number Game</title>
     </head>
     <body>
         <div>
@@ -16,16 +16,11 @@
         <div class="info-div">
             <h2>Guess Number Game</h2>
             <p>Hello player! You need to guess the number that your browser hides</p>
-            <p id="result"></p>
         </div>
         <div class="main-div">
-            <button onclick="newGame()">Play!</button>
-            <button onclick="startGame()">Start</button>
-            <input type="text" name="max" id="maxNumber" />
-            <input type="text" name="tries" id="tries" />
-            <input type="text" name="inputRow" id="inputRow" />
-            <button onclick="checker()" style="margin-top: 1rem">Check!</button>
+            <button id="startBtn">Start</button>
+            <button onclick="window.location.reload()">Restart</button>
         </div>
-        <script src="script.js"></script>
+        <script type="module" src="src/app.js"></script>
     </body>
 </html>
